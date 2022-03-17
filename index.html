@@ -21,19 +21,23 @@
     <header>
         <h1>What height do you look</h1>
     </header>
-    <img src="heightDiagram.png" alt="Height Diagram , Logic of website">
-    <form>
-        <h2>We're working this shit out</h2>
+    <img class = "main_img" src="heightDiagram.png" alt="Height Diagram , Logic of website">
+    <h2 class = "right">We're working this shit out</h2>
+    
+        <form>
+        <label for="actualHeight">Put in your height in cm</label><br>
+        <input type="text" name="actualHeight" id="actualHeightID"><br>
         
-        <input type="text" name="actualHeight" id="actualHeightID">
+        <label for="bodyType">Put in your body shape</label><br>
         <select name="bodyType" id="bodyTypeID">
-            <option value="Square">Square</option>
-            <option value="LongRectangle">Long Rectangle</option>
-            <option value="Triangle">Regular - triangly</option>
-            <option value="audi">Audi</option>
-        </select>
-        <input type = "button" onclick = "calculateHeight()">
+            <option value="0.7">Square</option>
+            <option value="1.4">Long Rectangle</option>
+            <option value="1">Regular - triangly</option>
+        </select><br>
+        <button onclick = "calculateHeight()">Calculate What You look Like HeightWise</button>
+        <h2>You look</h2>
+        <h2 id = "outputID">...</h2>
         </form>
-        <h2 id = "outputID">Output</h2>
+        
 </body>
 </html>

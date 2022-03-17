@@ -1,7 +1,7 @@
 
 :root{
     --main-font: 'Poppins', sans-serif;
-    --main-title-font: 'Staatliches', cursive;
+    --main-title-font: 'Poppins', sans-serif;
 }
 
 body {
@@ -13,15 +13,34 @@ h1{
     font-size:4em;
     text-align: center;
     height:20%;
-
-    
-
 }
 
 header{
-    background-color: yellow;    
+    background-color: yellow;
+    margin:5%;    
 }
 
 form{
     margin:10%;
+}
+
+h2{
+    font-size:2em;
+}
+
+.right{
+    float:right;
+}
+
+h3{
+    font-size:1em;
+}
+
+input{
+    font-family:var(--main-font);
+}
+
+.main_img{
+    width:50%;
+    float:left;
 }
