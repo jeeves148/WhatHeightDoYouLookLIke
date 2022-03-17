@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Height Do you look</title>
+
+    <!-- scripts -->
+    <script src="Height.js"></script>
+
+    <!-- Styling on em -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts importing -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>What height do you look</h1>
+    </header>
+    <img src="heightDiagram.png" alt="Height Diagram , Logic of website">
+    <form>
+        <h2>We're working this shit out</h2>
+        
+        <input type="text" name="actualHeight" id="actualHeightID">
+        <select name="bodyType" id="bodyTypeID">
+            <option value="Square">Square</option>
+            <option value="LongRectangle">Long Rectangle</option>
+            <option value="Triangle">Regular - triangly</option>
+            <option value="audi">Audi</option>
+        </select>
+        <input type = "button" onclick = "calculateHeight()">
+        </form>
+        <h2 id = "outputID">Output</h2>
+</body>
+</html>

@@ -1,0 +1,27 @@
+
+:root{
+    --main-font: 'Poppins', sans-serif;
+    --main-title-font: 'Staatliches', cursive;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+h1{
+    font-family: var(--main-title-font);
+    font-size:4em;
+    text-align: center;
+    height:20%;
+
+    
+
+}
+
+header{
+    background-color: yellow;    
+}
+
+form{
+    margin:10%;
+}
