@@ -11,6 +11,8 @@
 
     <!-- Styling on em -->
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1e8873694.js" crossorigin="anonymous"></script>
+
 
     <!-- fonts importing -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,24 +22,35 @@
 <body>
     <header>
         <h1>What height do you look</h1>
-    </header>
-    <img class = "main_img" src="heightDiagram.png" alt="Height Diagram , Logic of website">
-    <h2 class = "right">We're working this shit out</h2>
-    
+    </header>    
         <form>
-        <label for="actualHeight">Put in your height in cm</label><br>
+        <h2>We're working this shit out</h2>
+        <p class = "label" for="actualHeight">Put in your height in cm</p>
         <input type="text" name="actualHeight" id="actualHeightID"><br>
         
-        <label for="bodyType">Put in your body shape</label><br>
+        <p class = "label" for="bodyType">Put in your body shape</p>
         <select name="bodyType" id="bodyTypeID">
-            <option value="0.7">Square</option>
-            <option value="1.4">Long Rectangle</option>
+            <option value="0.95">Square</option>
+            <option value="1.1">Long Rectangle</option>
             <option value="1">Regular - triangly</option>
-        </select><br>
-        <button onclick = "calculateHeight()">Calculate What You look Like HeightWise</button>
+        </select>
+        <br>
+        <button type = "button" onclick = "calculateHeight()">Calculate what Height you look</button>
         <h2>You look</h2>
         <h2 id = "outputID">...</h2>
         </form>
         
+    <footer>
+            <p>Made by: Cal(A little, short, square, elf looking motherfucker)</p>
+            <p>Contact us:thundercloudcomics148<br>@gmail.com</p>
+                
+                
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /> <!-- Add font awesome icons -->
+            <ul>
+            <a class="active" href="index.html"><i class ="fa fa-home"></i></a>
+            <a href="https://github.com/jeeves148/WhatHeightDoYouLookLIke"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://podcasts.apple.com/gb/podcast/the-pebble-podcast/id1552587218">The pebble podcast</a>
+            </ul>
+    </footer>
 </body>
 </html>
