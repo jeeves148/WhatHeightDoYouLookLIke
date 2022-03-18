@@ -20,8 +20,14 @@ form{
     text-align: center;
     padding:4% auto;
     float:left;
-    width:100%;
+    width:100%;    
+}
 
+.biggie{
+    text-align: center;
+    padding:4% auto;
+    float:left;
+    width:100%;    
 }
 
 h2{
@@ -67,7 +73,7 @@ footer{
     background-color:black;
     color:white;
     float:left;
-    width:100%;
+    width:93.4%;
     padding:3.3%;
     font-family:var(--main-font);
     /*this is just pi because I was bored*/
