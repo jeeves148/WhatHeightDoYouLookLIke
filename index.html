@@ -10,10 +10,10 @@
     <script src="Height.js"></script>
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
     <!-- Styling on em -->
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b1e8873694.js" crossorigin="anonymous"></script>
@@ -26,11 +26,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
+        <div class="dropdown">
+    <i class="fas fa-bars dropdown Hpos "></i>
+        <div class="dropdown-content">
+          <a href="#main">Main</a>
+          <a href="#Images">Images</a>
+          <a href="#Footer">Footer</a>
+        </div></div>
     <header>
         <h1 class = " animate__animated animate__backInDown">What height do you look</h1>
     </header>    
         <form>
-        <h2>We're working this shit out</h2>
+        <h2 id = "main">We're working this shit out</h2>
         <p class = "label" for="actualHeight">Put in your height in cm</p>
         <input type="text" name="actualHeight" id="actualHeightID"><br>
         
@@ -47,9 +54,8 @@
         <h2 id = "outputID">...</h2>
         </form>
 
-        <hr class="dashed">
     <div class="biggie">
-        <h2>Images (kill me now)</h2>
+        <h2 id = "Images">Images (kill me now)</h2>
         <div class="img_holder">
         <img src="Images/heightDiagram.png" alt="My Scientific Diagrams">
         <img src="Images/TomCruiseEg.png" alt="Tom cruise elf man">
@@ -57,7 +63,7 @@
         </div>
         
     </div>
-    <footer>
+    <footer id = "Footer">
             <p>Made by: Cal(A little, short, square, elf looking motherfucker)</p>
             <p>Contact us:thundercloudcomics148<br>@gmail.com</p>
                 

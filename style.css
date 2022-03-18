@@ -9,8 +9,12 @@ body {
     margin:0%;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 hr.dashed {
-    border-top: 7px dashed rgb(40, 40, 255);
+    border-top: 7px dashed black;
   }
 
 h1{
@@ -31,7 +35,7 @@ form{
     text-align: center;
     padding:4% auto;
     display: flex;
-
+    overflow-x: scroll;
 }
 
 img{
@@ -83,6 +87,30 @@ button{
     margin:2.5%;
     padding:2.5%;
     font-family: var(--main-font);
+    background-color: white;
+    border: 7px solid black;
+    color:black;
+
+}
+
+button:hover{
+    width:20%;
+    margin:2.5%;
+    padding:2.5%;
+    font-family: var(--main-font);
+    background-color: none;
+    border: 7px dashed black;
+    color:black;
+}
+
+button:active{
+    width:20%;
+    margin:2.5%;
+    padding:2.5%;
+    font-family: var(--main-font);
+    background-color: black;
+    border: 7px black;
+    color:white;
 }
 
 footer{
@@ -98,3 +126,59 @@ footer{
     }
     a{color:rgb(40, 40, 255); font-size: 1.3em;}
     a:active{color:blueviolet; font-size: 1.3em;}
+  
+  /* The dropdown container */
+  .dropdown {
+    overflow: hidden;
+  }
+
+  .Hpos{
+    position: sticky; 
+      top:5%;
+      left:5%;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 3em;
+    border: none;/* Important for vertical align on mobile phones */
+    margin:0;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit; 
+    position: sticky; 
+    top:5%;
+    left:5%;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    top:5%;
+    left:5%;
+    position: sticky; 
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
