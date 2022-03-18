@@ -139,14 +139,14 @@ footer{
 
   .Hpos{
     position: sticky; 
-      top:5%;
-      left:5%;
+    top:5%;
+    left:5%;
   }
   
   /* Dropdown button */
   .dropdown .dropbtn {
     font-size: 3em;
-    border: none;/* Important for vertical align on mobile phones */
+    border: none;
     margin:0;
     outline: none;
     background-color: inherit;
@@ -154,6 +154,7 @@ footer{
     position: sticky; 
     top:5%;
     left:5%;
+    z-index: 1;
   }
   
   /* Dropdown content (hidden by default) */
