@@ -148,12 +148,14 @@ footer{
     color:white;
     text-decoration: none;
     margin-bottom: 1%;
+    justify-content: center;
 
 }
 
 .topnav a{
+    font-size: 1.53m;
     float:left;
-    padding:2%;
+    padding:1% 2%;
     font-family: var(--main-font);
     text-decoration: none;
     color:white;
