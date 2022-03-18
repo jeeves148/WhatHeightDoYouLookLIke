@@ -9,6 +9,10 @@ body {
     margin:0%;
 }
 
+hr.dashed {
+    border-top: 7px dashed rgb(40, 40, 255);
+  }
+
 h1{
     font-family: var(--main-title-font);
     font-size:4em;
