@@ -23,6 +23,19 @@ form{
     width:100%;    
 }
 
+.img_holder{
+    text-align: center;
+    padding:4% auto;
+    display: flex;
+
+}
+
+img{
+    width:48%;
+    margin:1%;
+
+}
+
 .biggie{
     text-align: center;
     padding:4% auto;
