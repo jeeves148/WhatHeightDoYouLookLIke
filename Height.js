@@ -2,6 +2,11 @@ function calculateHeight()
 {
     let a = document.getElementById("actualHeightID").value;
     let bs = document.getElementById("bodyTypeID").value;
+
+    let p = document.getElementById("shortPersonInDenialID");
+    var insult
+    
+    console.log(p)
     console.log(a)
     console.log(bs)
 
@@ -9,6 +14,14 @@ function calculateHeight()
     {document.getElementById("outputID").innerHTML = "Height must be a number , you silly sausage"}
     else
     {
+      if(p.checked == "true")
+      {
+        insult = "you short fuck"
+      }
+      else
+      {
+        insult = "how's the weather up there"
+      }
     text = bs * a
     console.log(text);
     document.getElementById("outputID").innerHTML = text + "cm";
